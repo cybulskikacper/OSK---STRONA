@@ -1,0 +1,42 @@
+@media (min-width: 576px) {
+	.nav {
+		&-desktop {
+			.forest {
+				margin-left: 0.8em;
+				font-size: 5rem;
+			}
+		}
+		&__item {
+			font-size: 1.6rem;
+		}
+	}
+
+	.header {
+		padding: 10em;
+		&__text {
+			font-size: 3rem;
+		}
+
+		&__heading {
+			font-size: 4rem;
+		}
+	}
+
+	.section {
+		.about {
+			&__box {
+				flex-direction: row;
+				justify-content: space-between;
+				text-align: left;
+				&-text {
+					margin-left: 0.1em;
+					width: 55%;
+				}
+
+				&-img {
+					width: 40%;
+				}
+			}
+		}
+	}
+}
