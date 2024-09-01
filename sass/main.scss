@@ -325,17 +325,12 @@ body {
 			border-radius: 5px;
 		}
 
-		.offers__card-items--second .offers__card-btn {
-			background-color: $green-cta;
-		}
-
 		&-full {
 			font-size: 2.7rem;
 			color: $dark;
 			text-transform: uppercase;
 			text-decoration: underline rgb(154, 111, 37);
 			cursor: pointer;
-			margin-top: 20px;
 		}
 	}
 }
@@ -345,9 +340,9 @@ body {
 	align-items: center;
 	font-family: sans-serif;
 	color: $dark;
-	margin-top: 80px;
+	margin-top: 0px;
 	.wrapper {
-		padding: 2em 2em 2em;
+		padding: 0em 2em 2em;
 		width: 100%;
 		max-width: 500px;
 

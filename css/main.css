@@ -324,9 +324,6 @@ body {
   box-shadow: 3px 3px 7px 0px #e0e0e0;
   border-radius: 5px;
 }
-.offers__card .offers__card-items--second .offers__card-btn {
-  background-color: #2bde71;
-}
 .offers__card-full {
   font-size: 2.7rem;
   color: #000000;
@@ -334,7 +331,6 @@ body {
   -webkit-text-decoration: underline rgb(154, 111, 37);
           text-decoration: underline rgb(154, 111, 37);
   cursor: pointer;
-  margin-top: 20px;
 }
 
 .faq {
@@ -342,10 +338,10 @@ body {
   align-items: center;
   font-family: sans-serif;
   color: #000000;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 .faq .wrapper {
-  padding: 2em 2em 2em;
+  padding: 0em 2em 2em;
   width: 100%;
   max-width: 500px;
 }
