@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Formularz kontaktowy pozwalający na bezpośredni kontakt z nami oraz mapa która ukazuje dokładne położenie naszej firmy.">
-    <title>Kontakt | Forest Website </title>
-    <link rel="icon" href="./img/forest-favicon.png">
+    <title>Kontakt | Szkoła Jazdy Paśnicki </title>
+    <link rel="icon" href="./img/icons/icon.svg">
     <link rel="stylesheet" href="./css/hamburger.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -15,9 +15,11 @@
 <body class="contact-page">
     <div class="wrapper">
         <nav class="nav nav-desktop">
-            <a href="#" class="forest" <span><img class="fa-solid fa-tree" src="./img/icons/tree.svg"></span>Forest</a>
+            <a href="#" class="forest">
+                <img class="fa-solid fa-tree" src="./img/icons/logo.svg">
+            </a>
             <a class="nav__item " href="index.html#">Home</a>
-            <a class="nav__item" href="index.html#about">About</a>
+            <a class="nav__item" href="index.html#about">O nas</a>
             <a class="nav__item" href="index.html#offers">Oferta</a>
             <a class="nav__item is-active" href="#contact">Kontakt</a>
         </nav>
@@ -30,7 +32,7 @@
 
         <nav class="nav nav-mobile ">
             <a class="nav__item " href="index.html#">Home</a>
-            <a class="nav__item" href="index.html#about">About</a>
+            <a class="nav__item" href="index.html#about">O nas</a>
             <a class="nav__item" href="index.html#offers">Oferta</a>
             <a class="nav__item is-active" href="#contact">Kontakt</a>
         </nav>
@@ -38,8 +40,9 @@
 
     <header class="header">
         <div class="wrapper">
-            <p class="header__text">Forest Group</p>
-            <h1 class="header__heading">Najpiękniejszy park w Twojej okolicy!</h1>
+            <h1 class="header__heading"> SZKOŁA JAZDY PAŚNICKI </h1>
+            <p class="header__text">Praktyczna nauka jazdy samochodem, <span class="exam">NIE pod egzamin.</span> </p>
+            </h1>
         </div>
     </header>
 
@@ -49,34 +52,79 @@
 
         <div class="wrapper">
             <h2 class="section-title">Skontaktuj się z nami</h2>
-            <form class="contact__form">
-                <div class="contact__form-box">
-                    <label for="name">Imię:</label>
-                    <input type="text" id="name" required>
+            <div class="contact__card">
+
+                <div class="contact__card-items contact__card-items--first">
+                    <div class="contact__card-items-container">
+                        <p class="contact__card-items-icon"><img src="./img/icons/phone.svg"></p>
+                        <p class="contact__card-items-text">511 243 711</p>
+                    </div>
                 </div>
-                <div class="contact__form-box">
-                    <label for="surrname">Nazwisko:</label>
-                    <input type="text" id="surrname" required>
+
+                <div class="contact__card-items contact__card-items--second">
+                    <div class="contact__card-items-container">
+                        <p class="contact__card-items-icon"><img src="./img/icons/phone.svg"></p>
+                        <p class="contact__card-items-text">505 4444 60</p>
+                    </div>
                 </div>
-                <div class="contact__form-box">
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" required>
+
+                <div class="contact__card-items contact__card-items--third">
+                    <div class="contact__card-items-container">
+                        <p class="contact__card-items-icon"><img src="./img/icons/mail.svg"></p>
+                        <p class="contact__card-items-text">biuro@szkolajazdypasnicki.pl</p>
+                    </div>
                 </div>
-                <div class="contact__form-box">
-                    <label for="msg">Wiadomość</label>
-                    <textarea id="msg" required></textarea>
+
+                <div class="contact__card-items contact__card-items--fourth">
+                    <div class="contact__card-items-container">
+                        <p class="contact__card-items-icon"><img src="./img/icons/pin.svg"></p>
+                        <p class="contact__card-items-text"> Wojska Polskiego 19B lokal 12 w Bydgoszczy - pierwsze
+                            piętro </p>
+                    </div>
                 </div>
-                <button type="submit" class="contact__form-btn">Wyślij</button>
-                <p class="contact__form-success">Mail został wysłany poprawnie</p>
-            </form>
+
+                <div class="contact__card-items contact__card-items--fifth">
+                    <div class="contact__card-items-container">
+                        <p class="contact__card-items-icon"><img src="./img/icons/clock.svg"></p>
+                        <p class="contact__card-items-text">Biuro jest czynne we wtorek i czwartek w godzinach 16 - 18
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact__card-items contact__card-items--sixth">
+                    <div class="contact__card-items-container">
+                        <p class="contact__card-items-icon"><img src="./img/icons/bank.svg"></p>
+                        <p class="contact__card-items-text">1384 7295 0624 1783 9056 8134 72</p>
+                    </div>
+                </div>
+
+                <div class="contact__card-items contact__card-items--seventh">
+                    <div class="contact__card-items-container">
+                        <p class="contact__card-items-icon"><img src="./img/icons/info.svg"></p>
+                        <p class="contact__card-items-text">NIP: 9532207812 </p>
+                        <p class="contact__card-items-text">REGON: 092952996 </p>
+                        <p class="contact__card-items-direction">Szkoła mieści się po drugiej stronie Kauflandu w
+                            budynku z
+                            niebieskimi oknami. Bardzo dobry dojazd - tramwajem lub autobusem. Przystanek docelowy -
+                            Wyżyny
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
         </div>
+
     </section>
 
     <section class="map section-padding section-heading">odwiedź nas!
         <div class="wrapper">
             <div class="map__box">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.898050088908!2d19.890269276018646!3d50.08819561338151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1724008232502!5m2!1spl!2spl"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2395.109953750086!2d18.039480200000003!3d53.108218099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470314793cad8b33%3A0x5a9a8656094b6d4f!2sAl.%20Wojska%20Polskiego%2019B%2F12%2C%2085-171%20Bydgoszcz!5e0!3m2!1spl!2spl!4v1724944565460!5m2!1spl!2spl"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -86,36 +134,32 @@
     <footer class="footer">
 
         <div class="wrapper">
+
             <div class="footer__boxes">
-                <h3 class="footer__box-title-main"> <span><img class="fa-solid fa-tree"
-                            src="./img/icons/tree.svg"></span>Forest</a> </h3>
-                <div class="footer__box footer__box-desktop">
-                    <h3 class="footer__box-title">O nas</h3>
-                    <ul class="footer__box-list">
-                        <li class="footer__box-list-item"><a href="#">Historia</a></li>
-                        <li class="footer__box-list-item"><a href="#">Parki</a></li>
-                        <li class="footer__box-list-item"><a href="# ">Opinie</a></li>
-                    </ul>
-                </div>
-                <div class="footer__box footer__box-desktop">
-                    <h3 class="footer__box-title">Nasza firma</h3>
-                    <ul class="footer__box-list">
-                        <li class="footer__box-list-item"><a href="#">Praca</a></li>
-                        <li class="footer__box-list-item"><a href="#">Kadry</a></li>
-                        <li class="footer__box-list-item"><a href="#">Zarząd</a></li>
-                    </ul>
-                </div>
-                <div class="footer__box footer__box-desktop">
-                    <h3 class="footer__box-title">Dokumenty</h3>
-                    <ul class="footer__box-list">
-                        <li class="footer__box-list-item"><a href="#">Wnioski</a></li>
-                        <li class="footer__box-list-item"><a href="#">Rezerwacje</a></li>
-                    </ul>
+
+                <div class="footer__box">
+                    <img class="footer__box-logo" src="./img/icons/logo.svg">
+
+                    <div class="footer__box-social">
+                        <a href="https://www.tiktok.com/"><img src="./img/icons/tiktok.svg"
+                                class="footer__box-link"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61557701016510"><img src="./img/icons/fb.svg"
+                                class="footer__box-link"></a>
+                        <a href="https://www.instagram.com/?hl=pl"><img src="./img/icons/insta.svg"
+                                class="footer__box-link"></a>
+                    </div>
+
                 </div>
             </div>
+
+
+
+        </div>
         </div>
         <hr>
-        <p class="footer__bottom-text"> &copy <span class="footer__year"></span>Forest Group Company Ltd</p>
+        <p class="footer__bottom-text"> &copy <span class="footer__year"></span>Szkoła Jazdy Paśnicki | Realizacja:
+            cybu.pl </p>
+
     </footer>
 
     <script src="js/main.mini.js"></script>

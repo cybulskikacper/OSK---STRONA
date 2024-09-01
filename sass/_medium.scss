@@ -14,11 +14,29 @@
 
 			&__card {
 				margin-top: 50px;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 25px;
+				&-items {
+					&:hover {
+						transform: scale(1.1);
+					}
+				}
 
 				&-full {
 					margin-top: 10px;
+					grid-column: 1 / -1;
 				}
 			}
+		}
+		.footer {
+			margin-top: 500px;
+		}
+	}
+
+	.header {
+		&__course {
+			font-size: 1.9rem;
 		}
 	}
 
@@ -112,13 +130,14 @@
 					display: flex;
 					width: 300px;
 					height: 120px;
+					// zmniejszyc element klikalny tutaj
 				}
 			}
 		}
 	}
 
 	.header {
-		background-image: url('../img/jungle-big.webp');
+		background-image: url('../img/header-large.jpg');
 
 		&__text {
 			font-size: 3.2rem;
@@ -132,51 +151,50 @@
 	.offers {
 		&__card {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 25px;
+			grid-template-columns: 1fr;
+			justify-content: center;
+			align-items: center;
+
 			&-items {
+				justify-self: center;
+				height: 410px;
+				max-width: 950px;
 				&:hover {
-					transform: scale(1.1);
+					transform: scale(1.05);
 				}
 			}
 
 			&-full {
-				grid-column: 1 / -1;
+				justify-self: center;
+				grid-column: 1;
 			}
+		}
+	}
+
+	.faq {
+		margin-top: 0px;
+		.wrapper {
+			max-width: 500px;
+
+			.accordion-heading {
+				font-size: 4rem;
+			}
+		}
+
+		.accordion__box {
+			width: 400px;
 		}
 	}
 
 	.footer {
 		margin-top: 0px;
 
-		&__boxes {
-			display: flex;
-			justify-content: space-between;
+		.wrapper {
+			padding: 0;
 		}
 
 		&__box-desktop {
 			display: block;
-		}
-
-		&__box {
-			margin: 0 2em;
-		}
-
-		&__box-title {
-			font-size: 2.6rem;
-			margin-bottom: 0.5em;
-		}
-
-		&__box-list {
-			list-style: none;
-		}
-		&__box-list-item {
-			margin-bottom: 1em;
-
-			a {
-				color: $dark;
-				text-decoration: none;
-			}
 		}
 	}
 }

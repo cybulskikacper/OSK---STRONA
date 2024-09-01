@@ -7,6 +7,9 @@ const successMessage = document.querySelector('.contact__form-success')
 const body = document.body
 const footerYear = document.querySelector('.footer__year')
 
+const faq = document.querySelector('.faq')
+const accordionBtns = document.querySelectorAll('.accordion__box-btn')
+
 const handleNav = () => {
 	navBtn.classList.toggle('is-active')
 	navMobile.classList.toggle('nav-mobile--active')
@@ -55,5 +58,35 @@ const handleScrollSpy = () => {
 	}
 }
 
+function openAccordionItems() {
+	if (this.nextElementSibling.classList.contains('active')) {
+		this.nextElementSibling.classList.remove('active')
+	} else {
+		closeAccordionItems()
+		this.nextElementSibling.classList.toggle('active')
+	}
+}
+
+const closeAccordionItems = () => {
+	const allActiveItems = document.querySelectorAll('.accordion__box-info')
+	allActiveItems.forEach(item => item.classList.remove('active'))
+}
+
+const clickOutsideAccordion = e => {
+	if (
+		
+		e.target.classList.contains('accordion__box-btn') 	||
+		e.target.classList.contains('accordion__box-info') ||
+		e.target.classList.contains('accordion__box-text')
+	
+	) 
+	return
+	closeAccordionItems()
+}
+
 navBtn.addEventListener('click', handleNav)
 window.addEventListener('scroll', handleScrollSpy)
+accordionBtns.forEach(btn => {
+	btn.addEventListener('click', openAccordionItems)
+})
+window.addEventListener('click', clickOutsideAccordion)
