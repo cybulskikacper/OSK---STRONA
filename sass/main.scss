@@ -124,7 +124,7 @@ body {
 	height: 70vh;
 	color: #fff;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-	background-image: url('../img/header-small.jpg');
+	background-image: url('../img/header-small.webp');
 	background-size: cover;
 	background-position: center;
 	object-fit: cover;
@@ -227,7 +227,7 @@ body {
 			justify-content: center;
 			text-align: center;
 			padding: 2em 0.5em;
-			background-image: url('/img/adventure-sm.jpg');
+			background-image: url('/img/adventure-sm.webp');
 			background-size: cover;
 			background-position: center;
 			object-fit: cover;
@@ -480,7 +480,7 @@ body {
 	}
 
 	&__card {
-		color: black;
+		color: $dark;
 		font-weight: 300;
 		font-family: sans-serif;
 		&-items {
