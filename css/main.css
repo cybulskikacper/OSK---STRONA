@@ -338,7 +338,7 @@ body {
   align-items: center;
   font-family: sans-serif;
   color: #000000;
-  margin-top: 0px;
+  margin-top: 50px;
 }
 .faq .wrapper {
   padding: 0em 2em 2em;
@@ -474,7 +474,7 @@ body {
 }
 .contact__card-items-text {
   margin-top: 1.2em;
-  font-size: 2.1rem;
+  font-size: 1.9rem;
 }
 .contact__card-items-direction {
   margin-top: 4em;
