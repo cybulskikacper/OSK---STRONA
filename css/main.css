@@ -323,7 +323,6 @@ body {
   border: solid #e0e0e0;
   box-shadow: 3px 3px 7px 0px #e0e0e0;
   border-radius: 5px;
-  cursor: pointer;
 }
 .offers__card .offers__card-items--second .offers__card-btn {
   background-color: #2bde71;
@@ -657,7 +656,7 @@ body {
   }
   .offers__card-items {
     justify-self: center;
-    height: 410px;
+    height: 360px;
     max-width: 950px;
   }
   .offers__card-items:hover {
