@@ -120,6 +120,24 @@ body {
 			}
 		}
 	}
+
+	// &:hover {
+	// 	color: $white;
+
+	// 	&::after {
+	// 		background-color: green;
+	// 		height: 100%;
+	// 	}
+	// }
+
+	// &.is-active {
+	// 	color: $white;
+
+	// 	&::after {
+	// 		background-color: $dark;
+	// 		height: 100%;
+	// 	}
+	// }
 }
 
 .header {
@@ -363,7 +381,7 @@ body {
 	}
 
 	.accordion__box {
-		width: 210px;
+		width: 250px;
 		background-color: green;
 		color: $white;
 		border-radius: 6px;
@@ -374,8 +392,8 @@ body {
 	}
 
 	.accordion__box-icon {
-		width: 30px;
-		height: 30px;
+		width: 90px;
+		height: 90px;
 		margin-right: 20px;
 		color: $dark;
 	}

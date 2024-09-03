@@ -175,6 +175,11 @@
 		.wrapper {
 			max-width: 500px;
 
+			.accordion__box-icon {
+				width: 120px;
+				height: 120px;
+			}
+
 			.accordion-heading {
 				font-size: 4rem;
 			}

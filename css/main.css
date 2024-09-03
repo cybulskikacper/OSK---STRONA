@@ -360,7 +360,7 @@ body {
   text-transform: uppercase;
 }
 .faq .accordion__box {
-  width: 210px;
+  width: 250px;
   background-color: green;
   color: #fff;
   border-radius: 6px;
@@ -370,8 +370,8 @@ body {
   align-items: center;
 }
 .faq .accordion__box-icon {
-  width: 30px;
-  height: 30px;
+  width: 90px;
+  height: 90px;
   margin-right: 20px;
   color: #000000;
 }
@@ -676,6 +676,10 @@ body {
   }
   .faq .wrapper {
     max-width: 500px;
+  }
+  .faq .wrapper .accordion__box-icon {
+    width: 120px;
+    height: 120px;
   }
   .faq .wrapper .accordion-heading {
     font-size: 4rem;
