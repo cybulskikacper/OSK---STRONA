@@ -102,12 +102,20 @@ body {
 			background-color: $dark;
 			transition: height 0.5s ease;
 		}
+		&:hover {
+			color: $white;
 
-		&:hover,
+			&::after {
+				background-color: green;
+				height: 100%;
+			}
+		}
+
 		&.is-active {
 			color: $white;
 
 			&::after {
+				background-color: $dark;
 				height: 100%;
 			}
 		}
@@ -356,7 +364,8 @@ body {
 
 	.accordion__box {
 		width: 210px;
-		background-color: wheat;
+		background-color: green;
+		color: $white;
 		border-radius: 6px;
 		margin: 20px;
 		display: flex;

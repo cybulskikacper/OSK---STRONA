@@ -120,10 +120,18 @@ body {
   background-color: #000000;
   transition: height 0.5s ease;
 }
-.nav__item:hover, .nav__item.is-active {
+.nav__item:hover {
   color: #fff;
 }
-.nav__item:hover::after, .nav__item.is-active::after {
+.nav__item:hover::after {
+  background-color: green;
+  height: 100%;
+}
+.nav__item.is-active {
+  color: #fff;
+}
+.nav__item.is-active::after {
+  background-color: #000000;
   height: 100%;
 }
 
@@ -353,7 +361,8 @@ body {
 }
 .faq .accordion__box {
   width: 210px;
-  background-color: wheat;
+  background-color: green;
+  color: #fff;
   border-radius: 6px;
   margin: 20px;
   display: flex;
@@ -704,10 +713,10 @@ body {
     font-size: 2.5rem;
   }
   .header__text {
-    font-size: 4.2rem;
+    font-size: 3.1rem;
   }
   .header__heading {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .header__course {
     font-size: 3rem;
