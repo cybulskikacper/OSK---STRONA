@@ -682,6 +682,9 @@ body {
   .faq .wrapper .accordion-heading {
     font-size: 4rem;
   }
+  .faq .wrapper .accordion__box-text {
+    font-size: 1.5rem;
+  }
   .faq .accordion__box {
     width: 400px;
   }
