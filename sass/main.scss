@@ -99,14 +99,14 @@ body {
 			height: 0;
 			z-index: -1;
 			width: 100%;
-			background-color: $dark;
+			background-color: #006533;
 			transition: height 0.5s ease;
 		}
 		&:hover {
 			color: $white;
 
 			&::after {
-				background-color: green;
+				background-color: #006533;
 				height: 100%;
 			}
 		}
@@ -115,29 +115,11 @@ body {
 			color: $white;
 
 			&::after {
-				background-color: $dark;
+				background-color: #006533;
 				height: 100%;
 			}
 		}
 	}
-
-	// &:hover {
-	// 	color: $white;
-
-	// 	&::after {
-	// 		background-color: green;
-	// 		height: 100%;
-	// 	}
-	// }
-
-	// &.is-active {
-	// 	color: $white;
-
-	// 	&::after {
-	// 		background-color: $dark;
-	// 		height: 100%;
-	// 	}
-	// }
 }
 
 .header {
@@ -210,10 +192,9 @@ body {
 .section {
 	color: $dark;
 	.about {
-		font-weight: 300;
 		&-heading {
 			font-size: 3.3rem;
-			font-weight: 400;
+			font-weight: 300;
 			margin-bottom: 2em;
 			text-transform: uppercase;
 		}
@@ -284,7 +265,7 @@ body {
 .offers {
 	.section-heading {
 		font-size: 3.5rem;
-		font-weight: 400;
+		font-weight: 300;
 		text-transform: uppercase;
 		text-align: center;
 	}
@@ -364,7 +345,6 @@ body {
 .faq {
 	display: flex;
 	align-items: center;
-	font-family: sans-serif;
 	color: $dark;
 	margin-top: 50px;
 	.wrapper {
@@ -377,6 +357,7 @@ body {
 			text-align: center;
 			margin-bottom: 1.5em;
 			text-transform: uppercase;
+			font-weight: 300;
 		}
 	}
 
@@ -526,6 +507,7 @@ body {
 
 			&-direction {
 				margin-top: 4em;
+				font-size: 1.9rem;
 			}
 		}
 	}

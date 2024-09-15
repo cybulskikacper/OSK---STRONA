@@ -42,20 +42,21 @@
 	.section {
 		.about {
 			&-heading {
-				font-size: 4.5rem;
+				font-size: 4rem;
 			}
 
 			&__title {
-				font-size: 4.5rem;
+				font-size: 3.2rem;
 				font-weight: 400;
 				margin-bottom: 1em;
 			}
 
 			&__text {
-				font-size: 3.2rem;
+				font-size: 2.3rem;
 				line-height: 1.3;
 				font-weight: 300;
 				margin-bottom: 0.5em;
+				text-wrap: balance;
 
 				&-first {
 					font-weight: 300;
@@ -67,7 +68,7 @@
 
 	.offers {
 		.section-heading {
-			font-size: 4.5rem;
+			font-size: 4rem;
 		}
 	}
 
