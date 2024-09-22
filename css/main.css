@@ -378,6 +378,15 @@ body {
 }
 .faq .accordion__box-text {
   margin-bottom: 0.5em;
+  margin-top: 0.7em;
+}
+.faq .accordion__box-text-here {
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.faq .accordion__box-text-here a {
+  color: #fff;
 }
 .faq .accordion__box-btn {
   display: flex;
