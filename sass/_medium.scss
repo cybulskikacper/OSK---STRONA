@@ -1,4 +1,14 @@
 @media (min-width: 768px) {
+	.section {
+		.about {
+			&__box {
+				flex-direction: row;
+				justify-content: space-between;
+				text-align: left;
+			}
+		}
+	}
+
 	.offer-page {
 		.header {
 			display: none;
@@ -143,7 +153,7 @@
 		}
 
 		&__heading {
-			font-size: 4.5rem;
+			font-size: 4rem;
 		}
 	}
 

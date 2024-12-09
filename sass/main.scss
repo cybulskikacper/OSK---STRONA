@@ -198,6 +198,11 @@ body {
 			margin-bottom: 2em;
 			text-transform: uppercase;
 		}
+
+		&-heading.second {
+			margin-top: 2em;
+		}
+
 		&__box {
 			display: flex;
 			flex-direction: column;
