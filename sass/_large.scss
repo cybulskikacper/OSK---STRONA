@@ -22,13 +22,21 @@
 		}
 	}
 
+	.section {
+		.about {
+			&__box {
+				flex-direction: row;
+				justify-content: space-between;
+				text-align: left;
+				gap: 20px;
+			}
+		}
+	}
+
 	.family {
 		.adventure {
 			&__box {
-				background-image: url('../img/5.jpg');
-
-//   5 7 8 9 12
-
+				background-image: url('../img/phone-number.webp');
 				padding: 7em 6em;
 			}
 		}
@@ -51,7 +59,7 @@
 			&__title {
 				font-size: 3.2rem;
 				font-weight: 400;
-				margin-bottom: 1em;
+				margin-bottom: 0.3em;
 			}
 
 			&__text {

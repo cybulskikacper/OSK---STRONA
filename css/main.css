@@ -212,7 +212,7 @@ body {
   text-transform: uppercase;
 }
 .section .about-heading.second {
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 .section .about__box {
   display: flex;
@@ -231,7 +231,7 @@ body {
 }
 .section .about__text {
   font-family: sans-serif;
-  font-size: 2.7rem;
+  font-size: 2rem;
   line-height: 1.3;
   font-weight: 300;
   margin-bottom: 0.5em;
@@ -243,8 +243,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2em 0.5em;
-  background-image: url("/img/adventure-sm.webp");
+  padding: 4em 2.5em;
+  background-image: url("/img/side-small-adventure.webp");
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
@@ -259,15 +259,6 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
-}
-.family .adventure__title {
-  position: relative;
-  padding: 0.7em 2em;
-  border: solid;
-  font-size: 3.5rem;
-  font-weight: 300;
-  color: #fff;
-  z-index: 2;
 }
 
 .offers .section-heading {
@@ -534,15 +525,15 @@ body {
     font-size: 4rem;
   }
   .section .about__box {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
   }
-  .section .about__box-text {
+  .section .about__box__text {
     margin-left: 0.1em;
     width: 55%;
+    font-size: 2.2rem;
   }
-  .section .about__box-img {
+  .section .about__box__img {
     width: 40%;
   }
   .faq .accordion__box {
@@ -550,11 +541,6 @@ body {
   }
 }
 @media (min-width: 768px) {
-  .section .about__box {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-  }
   .offer-page .header {
     display: none;
   }
@@ -660,7 +646,7 @@ body {
     height: 120px;
   }
   .header {
-    background-image: url("../img/header-large.webp");
+    background-image: url("../img/1.jpg");
   }
   .header__text {
     font-size: 3.2rem;
@@ -743,8 +729,14 @@ body {
   .header__course {
     font-size: 3rem;
   }
+  .section .about__box {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+  }
   .family .adventure__box {
-    background-image: url("../img/5.jpg");
+    background-image: url("../img/phone-number.webp");
     padding: 7em 6em;
   }
   .faq .accordion__box {
@@ -758,7 +750,7 @@ body {
   .section .about__title {
     font-size: 3.2rem;
     font-weight: 400;
-    margin-bottom: 1em;
+    margin-bottom: 0.3em;
   }
   .section .about__text {
     font-size: 2.2rem;
