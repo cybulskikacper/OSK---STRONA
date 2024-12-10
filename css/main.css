@@ -142,9 +142,8 @@ body {
   align-items: center;
   padding: 2em;
   width: 100%;
-  height: 70vh;
+  height: 87vh;
   color: #fff;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   background-image: url("../img/header-small.webp");
   background-size: cover;
   background-position: center;
@@ -159,7 +158,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
@@ -615,11 +613,25 @@ body {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
+  .nav-desktop .nav__item {
+    text-wrap: nowrap;
+  }
+  .nav-desktop .experience {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 2.2rem;
+  }
   .nav-desktop__item {
     position: fixed;
     margin: 0.5em;
     padding: 0.5em;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #000000;
     text-decoration: none;
     transition: transform 0.3s;
@@ -646,7 +658,7 @@ body {
     height: 120px;
   }
   .header {
-    background-image: url("../img/1.jpg");
+    background-image: url("../img/8.jpg");
   }
   .header__text {
     font-size: 3.2rem;
@@ -717,8 +729,8 @@ body {
   .nav .car {
     font-size: 2.9rem;
   }
-  .nav__item {
-    font-size: 2.5rem;
+  .nav .nav__item {
+    font-size: 1.7rem;
   }
   .header__text {
     font-size: 3.1rem;
@@ -779,5 +791,11 @@ body {
   .map__box iframe {
     width: 100%;
     height: 800px;
+  }
+  .nav .nav__item {
+    font-size: 2.7rem;
+  }
+  .nav .car .fa-solid {
+    height: 160px;
   }
 }/*# sourceMappingURL=main.css.map */
