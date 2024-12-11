@@ -144,7 +144,7 @@ body {
   width: 100%;
   height: 87vh;
   color: #fff;
-  background-image: url("../img/header-small.webp");
+  background-image: url("../img/small.webp");
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
@@ -158,6 +158,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
@@ -615,6 +616,10 @@ body {
   }
   .nav-desktop .nav__item {
     text-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .nav-desktop .nav__item-experience {
+    font-size: 1.6rem;
   }
   .nav-desktop .experience {
     position: absolute;
@@ -625,7 +630,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .nav-desktop__item {
     position: fixed;
@@ -650,21 +655,25 @@ body {
   }
   .nav-desktop .car i {
     display: flex;
-    margin-right: 0.3em;
+    margin-right: 0em;
   }
   .nav-desktop .car .fa-solid {
     display: flex;
-    width: 300px;
+    width: 140px;
     height: 120px;
   }
   .header {
-    background-image: url("../img/8.jpg");
+    background-image: url("../img/main.webp");
   }
   .header__text {
     font-size: 3.2rem;
   }
   .header__heading {
     font-size: 4rem;
+  }
+  .header::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
   }
   .offers__card {
     display: grid;
@@ -726,11 +735,15 @@ body {
   }
 }
 @media (min-width: 992px) {
-  .nav .car {
-    font-size: 2.9rem;
+  .nav .car .fa-solid {
+    width: 185px;
+    height: 150px;
   }
   .nav .nav__item {
-    font-size: 1.7rem;
+    font-size: 2rem;
+  }
+  .nav .nav__item-experience {
+    font-size: 2.2rem;
   }
   .header__text {
     font-size: 3.1rem;
@@ -756,6 +769,16 @@ body {
   }
 }
 @media (min-width: 1200px) {
+  .nav .car .fa-solid {
+    width: 250px;
+    height: 150px;
+  }
+  .nav .nav__item {
+    font-size: 2.5rem;
+  }
+  .nav .nav__item-experience {
+    font-size: 2.6rem;
+  }
   .section .about-heading {
     font-size: 4rem;
   }
@@ -792,10 +815,15 @@ body {
     width: 100%;
     height: 800px;
   }
-  .nav .nav__item {
-    font-size: 2.7rem;
-  }
+}
+@media (min-width: 2000px) {
   .nav .car .fa-solid {
-    height: 160px;
+    width: 500px;
+  }
+  .nav .nav__item {
+    font-size: 2.5rem;
+  }
+  .nav .nav__item-experience {
+    font-size: 2.6rem;
   }
 }/*# sourceMappingURL=main.css.map */

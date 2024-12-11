@@ -1,11 +1,17 @@
 @media (min-width: 992px) {
 	.nav {
 		.car {
-			font-size: 2.9rem;
+			.fa-solid {
+				width: 185px;
+				height: 150px;
+			}
 		}
 
 		.nav__item {
-			font-size: 1.7rem;
+			font-size: 2rem;
+		}
+		.nav__item-experience {
+			font-size: 2.2rem;
 		}
 	}
 
@@ -50,6 +56,22 @@
 }
 
 @media (min-width: 1200px) {
+	.nav {
+		.car {
+			.fa-solid {
+				width: 250px;
+				height: 150px;
+			}
+		}
+
+		.nav__item {
+			font-size: 2.5rem;
+		}
+		.nav__item-experience {
+			font-size: 2.6rem;
+		}
+	}
+
 	.section {
 		.about {
 			&-heading {
@@ -110,17 +132,21 @@
 			}
 		}
 	}
+}
 
+@media (min-width: 2000px) {
 	.nav {
-		.nav__item {
-			font-size: 2.7rem;
+		.car {
+			.fa-solid {
+				width: 500px;
+			}
 		}
 
-		.car {
-
-			.fa-solid {
-				height: 160px;
-			}
+		.nav__item {
+			font-size: 2.5rem;
+		}
+		.nav__item-experience {
+			font-size: 2.6rem;
 		}
 	}
 }
