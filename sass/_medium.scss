@@ -34,6 +34,15 @@
 		}
 	}
 
+	.basic-page1 {
+		.header {
+			display: none;
+		}
+		.footer {
+			margin-top: 50px;
+		}
+	}
+
 	.header {
 		&__course {
 			font-size: 1.9rem;
@@ -99,8 +108,6 @@
 			background-color: $white;
 
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-			
 
 			.nav__item {
 				text-wrap: nowrap;
@@ -183,7 +190,7 @@
 
 			&-items {
 				justify-self: center;
-				height: 360px;
+				height: 80px;
 				max-width: 950px;
 				&:hover {
 					transform: scale(1.05);

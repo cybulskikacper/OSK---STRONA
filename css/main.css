@@ -145,6 +145,7 @@ body {
   height: 87vh;
   color: #fff;
   background-image: url("../img/small.webp");
+  background-image: url("../img/11.jpg");
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
@@ -273,7 +274,7 @@ body {
 .offers__card {
   display: flex;
   flex-direction: column;
-  height: 450px;
+  height: 420px;
   margin: 1.4em 0em;
   gap: 30px;
   text-align: center;
@@ -282,20 +283,7 @@ body {
   padding: 2em;
   height: 600px;
   border-radius: 8px;
-  border: solid #e0e0e0;
-  box-shadow: 3px 3px 7px 0px #e0e0e0;
   transition: transform 0.3s ease;
-}
-.offers__card-items-title {
-  font-size: 2.8rem;
-  font-weight: normal;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
-}
-.offers__card-items-price {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 0.5em;
 }
 .offers__card-info {
   display: flex;
@@ -303,31 +291,12 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-.offers__card-option-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  margin-right: 1.85em;
-  font-weight: 500;
-  font-family: sans-serif;
-}
-.offers__card-btn {
-  margin-top: 1.2em;
-  padding: 0.7em 4.2em;
-  font-size: 1.5rem;
-  font-weight: 300;
-  background-color: #fff;
-  border: solid #e0e0e0;
-  box-shadow: 3px 3px 7px 0px #e0e0e0;
-  border-radius: 5px;
-}
 .offers__card-full {
-  font-size: 2.7rem;
+  font-size: 1.9rem;
+  font-weight: bold;
   color: #000000;
   text-transform: uppercase;
-  -webkit-text-decoration: underline rgb(154, 111, 37);
-          text-decoration: underline rgb(154, 111, 37);
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -335,7 +304,7 @@ body {
   display: flex;
   align-items: center;
   color: #000000;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .faq .wrapper {
   padding: 0em 2em 2em;
@@ -450,6 +419,10 @@ body {
   margin-top: 1900px;
 }
 
+.basic-page {
+  margin-top: 200px;
+}
+
 .contact {
   padding: 1em 1em;
   background-color: #f7f4f4;
@@ -504,6 +477,37 @@ body {
 
 .contact-page .footer {
   margin-top: 0px;
+}
+
+.basic-page1 .section-heading-price {
+  text-transform: lowercase;
+  font-size: 3rem;
+}
+.basic-page1 .offers .section-heading {
+  font-size: 3.3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.basic-page1 .offers__card {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  margin: 1.4em 0em;
+  gap: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+.basic-page1 .offers__card-basic {
+  font-size: 2rem;
+}
+.basic-page1 .offers__card-link {
+  font-size: 2.1rem;
+  margin-top: 140px;
+  text-transform: uppercase;
+  -webkit-text-decoration: underline green;
+          text-decoration: underline green;
+  color: #000000;
 }
 
 @media (min-width: 576px) {
@@ -564,6 +568,12 @@ body {
   }
   .offer-page .footer {
     margin-top: 500px;
+  }
+  .basic-page1 .header {
+    display: none;
+  }
+  .basic-page1 .footer {
+    margin-top: 50px;
   }
   .header__course {
     font-size: 1.9rem;
@@ -683,7 +693,7 @@ body {
   }
   .offers__card-items {
     justify-self: center;
-    height: 360px;
+    height: 80px;
     max-width: 950px;
   }
   .offers__card-items:hover {
@@ -770,7 +780,7 @@ body {
 }
 @media (min-width: 1200px) {
   .nav .car .fa-solid {
-    width: 250px;
+    width: 220px;
     height: 150px;
   }
   .nav .nav__item {
