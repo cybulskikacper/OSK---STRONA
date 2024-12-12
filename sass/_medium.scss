@@ -18,7 +18,7 @@
 				grid-template-columns: repeat(3, 1fr);
 				gap: 25px;
 				&-items {
-					&:hover {
+					x &:hover {
 						transform: scale(1.1);
 					}
 				}
@@ -35,11 +35,34 @@
 	}
 
 	.basic-page1 {
+		margin-top: 160px;
+
 		.header {
 			display: none;
 		}
-		.footer {
+
+		.offers {
+			&__card {
+				font-size: 2.1rem;
+				gap: 15px;
+
+				&-basic {
+					font-size: 1.9rem;
+					word-break: normal;
+				}
+
+				&-link {
+					font-size: 2.3rem;
+				}
+			}
+		}
+
+		.offers__card {
 			margin-top: 50px;
+		}
+
+		.footer {
+			margin-top: 115px;
 		}
 	}
 

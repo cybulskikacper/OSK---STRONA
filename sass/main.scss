@@ -132,7 +132,6 @@ body {
 	height: 87vh;
 	color: #fff;
 	background-image: url('../img/small.webp');
-	background-image: url('../img/11.jpg');
 
 	background-size: cover;
 	background-position: center;
@@ -276,7 +275,7 @@ body {
 	&__card {
 		display: flex;
 		flex-direction: column;
-		height: 420px;
+		height: 580px;
 		margin: 1.4em 0em;
 		gap: 30px;
 		text-align: center;
@@ -476,10 +475,6 @@ body {
 	}
 }
 
-.basic-page {
-	margin-top: 200px;
-}
-
 .contact {
 	padding: 1em 1em;
 	background-color: $light-grey;
@@ -545,6 +540,10 @@ body {
 	}
 }
 .basic-page1 {
+	header {
+		background-image: url('../img/secondheader.webp');
+	}
+
 	.section-heading-price {
 		text-transform: lowercase;
 		font-size: 3rem;
@@ -556,6 +555,10 @@ body {
 			font-weight: 300;
 			text-transform: uppercase;
 			text-align: center;
+
+			&-price {
+				text-transform: lowercase;
+			}
 		}
 
 		&__card {
@@ -565,15 +568,18 @@ body {
 			margin: 1.4em 0em;
 			gap: 10px;
 			text-align: center;
-			font-size: 2rem;
+			font-size: 1.7rem;
 
 			&-basic {
-				font-size: 2rem;
+				font-size: 1.8rem;
+			}
+			&-info {
+				text-align: center;
 			}
 
 			&-link {
-				font-size: 2.1rem;
-				margin-top: 140px;
+				font-size: 1.8rem;
+				margin-top: 85px;
 				text-transform: uppercase;
 				text-decoration: underline green;
 				color: $dark;
