@@ -65,7 +65,7 @@
 			margin-top: 230px;
 		}
 		.footer1 {
-			margin-top: 360px;
+			margin-top: 30px;
 		}
 	}
 
@@ -123,35 +123,31 @@
 
 		&-desktop {
 			position: fixed;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: row;
+			display: flex; /* Flexbox dla układu w poziomie */
+			align-items: center; /* Wyśrodkowanie pionowe elementów */
+			justify-content: space-between; /* Przestrzeń między elementami */
 			top: 0;
 			left: 0;
 			right: 0;
 			z-index: 1000;
-			background-color: $white;
-
+			background-color: #fff;
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			gap: 0.5em;
+
+			.car {
+				display: flex;
+				align-items: center;
+				margin-left: 1em;
+			}
+
+			.car .fa-solid {
+				width: 140px;
+				height: 120px;
+			}
 
 			.nav__item {
 				text-wrap: nowrap;
 				font-size: 1.5rem;
-			}
-			.nav__item-experience {
-				font-size: 1.6rem;
-			}
-			.experience {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				color: $dark;
-				text-decoration: none;
-				text-transform: uppercase;
-				white-space: nowrap;
-				font-size: 2rem;
 			}
 
 			&__item {
@@ -169,30 +165,20 @@
 				}
 			}
 
-			.car {
-				display: flex;
-				justify-content: flex-start;
-				flex: 1;
-				font-size: 2.7rem;
-				color: $dark;
-				text-decoration: none;
-
-				i {
-					display: flex;
-					margin-right: 0em;
-				}
-				.fa-solid {
-					display: flex;
-					width: 140px;
-					height: 120px;
-				}
+			.nav__item-experience {
+				font-size: 1.6rem;
+				color: #333;
+				margin-left: -1.5em; /* Dodanie odstępu między logo a napisem */
+				text-transform: uppercase;
+				text-align: center;
+				white-space: normal;
 			}
 		}
 	}
 
 	.header {
 		background-image: url('../img/main.webp');
-
+		// background-image: url('../img/a1.png');
 		&__text {
 			font-size: 3.2rem;
 		}
