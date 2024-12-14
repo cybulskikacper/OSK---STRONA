@@ -594,7 +594,10 @@ body {
     margin-top: 50px;
   }
   .basic-page1 .footer {
-    margin-top: 115px;
+    margin-top: 230px;
+  }
+  .basic-page1 .footer1 {
+    margin-top: 360px;
   }
   .header__course {
     font-size: 1.9rem;
@@ -799,7 +802,10 @@ body {
     width: 500px;
   }
   .basic-page1 .footer {
-    margin-top: 110px;
+    margin-top: 250px;
+  }
+  .basic-page1 .footer1 {
+    margin-top: 200px;
   }
 }
 @media (min-width: 1200px) {
@@ -832,6 +838,9 @@ body {
     font-weight: 300;
     font-size: 2.8rem;
   }
+  .basic-page1 .footer1 {
+    margin-top: 420px;
+  }
   .offers .section-heading {
     font-size: 4rem;
   }
@@ -845,7 +854,6 @@ body {
   .offer-page .footer {
     margin-top: 500px;
   }
-  .basic-page1 .footer1,
   .basic-page1 .footer2 {
     margin-top: 350px;
   }
