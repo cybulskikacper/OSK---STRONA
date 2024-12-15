@@ -733,6 +733,9 @@ body {
     justify-self: center;
     grid-column: 1;
   }
+  .family .adventure__box {
+    background-image: url("../img/side-big-adventure.webp");
+  }
   .faq {
     margin-top: 0px;
   }
