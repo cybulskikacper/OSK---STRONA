@@ -259,13 +259,6 @@ body {
 	}
 }
 .offers {
-	.section-heading {
-		font-size: 3.5rem;
-		font-weight: 300;
-		text-transform: uppercase;
-		text-align: center;
-	}
-
 	.offer-text {
 		font-size: 2rem;
 		text-align: center;
@@ -314,13 +307,6 @@ body {
 
 		&-items:hover::after {
 			height: 100%;
-		}
-
-		&-info {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
 		}
 	}
 }
