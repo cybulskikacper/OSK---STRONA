@@ -105,6 +105,10 @@
 					font-weight: 300;
 					font-size: 2.8rem;
 				}
+
+				&-second {
+					line-height: 1.8;
+				}
 			}
 		}
 	}
@@ -156,7 +160,6 @@
 }
 
 @media (min-width: 1600px) {
-
 }
 
 @media (min-width: 2000px) {

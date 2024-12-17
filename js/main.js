@@ -74,13 +74,11 @@ const closeAccordionItems = () => {
 
 const clickOutsideAccordion = e => {
 	if (
-		
-		e.target.classList.contains('accordion__box-btn') 	||
+		e.target.classList.contains('accordion__box-btn') ||
 		e.target.classList.contains('accordion__box-info') ||
 		e.target.classList.contains('accordion__box-text')
-	
-	) 
-	return
+	)
+		return
 	closeAccordionItems()
 }
 

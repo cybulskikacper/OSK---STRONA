@@ -75,6 +75,15 @@
 		}
 	}
 
+	.section {
+		.about {
+			&__text {
+				line-height: 1.6;
+				margin-bottom: 1em;
+			}
+		}
+	}
+
 	.contact-page {
 		.header {
 			display: none;
@@ -177,8 +186,8 @@
 	}
 
 	.header {
-		background-image: url('../img/main.webp');
-		// background-image: url('../img/a1.png');
+		background-image: url('../img/main-header.webp');
+
 		&__text {
 			font-size: 3.2rem;
 		}
@@ -202,14 +211,16 @@
 
 			&-items {
 				justify-self: center;
-				height: 80px;
+				height: 40px;
 				max-width: 950px;
+				margin-top: 80px;
 				&:hover {
 					transform: scale(1.05);
 				}
 			}
 
 			&-full {
+				margin-top: 10px;
 				justify-self: center;
 				grid-column: 1;
 			}
@@ -225,10 +236,8 @@
 	}
 
 	.faq {
-		margin-top: 0px;
 		.wrapper {
 			max-width: 500px;
-
 			.accordion__box-icon {
 				width: 120px;
 				height: 120px;
@@ -236,6 +245,7 @@
 
 			.accordion-heading {
 				font-size: 4rem;
+				margin-top: 300px;
 			}
 
 			.accordion__box-text {
