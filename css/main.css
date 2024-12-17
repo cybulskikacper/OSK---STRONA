@@ -599,16 +599,14 @@ body {
   }
   .nav-desktop {
     position: fixed;
-    display: flex; /* Flexbox dla układu w poziomie */
-    align-items: center; /* Wyśrodkowanie pionowe elementów */
-    justify-content: space-between; /* Przestrzeń między elementami */
+    display: flex;
+    align-items: center;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    gap: 0.5em;
   }
   .nav-desktop .car {
     display: flex;
@@ -622,6 +620,8 @@ body {
   .nav-desktop .nav__item {
     text-wrap: nowrap;
     font-size: 1.5rem;
+    margin: 0 0.5em; /* Zmniejszenie marginesów między elementami */
+    padding: 0.3em 0.6em; /* Opcjonalnie zmniejszenie paddingu */
   }
   .nav-desktop__item {
     position: fixed;
@@ -639,10 +639,19 @@ body {
   .nav-desktop .nav__item-experience {
     font-size: 1.6rem;
     color: #333;
-    margin-left: -1.5em; /* Dodanie odstępu między logo a napisem */
+    margin-left: 0.5em; /* Dodanie odstępu między logo a napisem */
     text-transform: uppercase;
     text-align: center;
     white-space: normal;
+  }
+  .nav-desktop .nav__item-experience::after, .nav-desktop .nav__item-experience::before {
+    display: none;
+    content: "";
+  }
+  .nav-desktop .nav-items {
+    display: flex;
+    gap: 1em; /* Ustawienie odstępu między linkami */
+    margin-left: auto; /* Przesunięcie sekcji na prawo */
   }
   .header {
     background-image: url("../img/main-header.webp");
