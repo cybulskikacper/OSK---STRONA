@@ -493,6 +493,7 @@ body {
 
 			&-basic {
 				font-size: 1.8rem;
+				margin-bottom: 2em;
 			}
 			&-info {
 				text-align: center;
@@ -500,7 +501,6 @@ body {
 
 			&-link {
 				font-size: 1.8rem;
-				margin-top: 85px;
 				text-transform: uppercase;
 				text-decoration: underline green;
 				color: $dark;

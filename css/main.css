@@ -459,13 +459,13 @@ body {
 }
 .basic-page1 .offers__card-basic {
   font-size: 1.8rem;
+  margin-bottom: 2em;
 }
 .basic-page1 .offers__card-info {
   text-align: center;
 }
 .basic-page1 .offers__card-link {
   font-size: 1.8rem;
-  margin-top: 85px;
   text-transform: uppercase;
   -webkit-text-decoration: underline green;
           text-decoration: underline green;
@@ -698,7 +698,7 @@ body {
   }
   .faq .wrapper .accordion-heading {
     font-size: 4rem;
-    margin-top: 300px;
+    margin-top: 333px;
   }
   .faq .wrapper .accordion__box-text {
     font-size: 1.5rem;
