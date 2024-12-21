@@ -350,13 +350,6 @@ body {
   margin-right: 0.5em;
 }
 
-.offer-page .section-heading {
-  padding: 1.2rem;
-}
-.offer-page .footer {
-  margin-top: 1900px;
-}
-
 .contact {
   padding: 1em 1em;
   background-color: #f7f4f4;
@@ -409,16 +402,8 @@ body {
   margin-top: 5rem;
 }
 
-.contact-page .footer {
-  margin-top: 0px;
-}
-
 .basic-page1 header {
   background-image: url("../img/secondheader.webp");
-}
-.basic-page1 .section-heading-price {
-  text-transform: lowercase;
-  font-size: 3rem;
 }
 .basic-page1 .offers .section-heading {
   font-size: 3.3rem;
@@ -438,12 +423,12 @@ body {
   text-align: center;
   font-size: 1.7rem;
 }
+.basic-page1 .offers__card-info {
+  text-align: center;
+}
 .basic-page1 .offers__card-basic {
   font-size: 1.8rem;
   margin-bottom: 2em;
-}
-.basic-page1 .offers__card-info {
-  text-align: center;
 }
 .basic-page1 .offers__card-link {
   font-size: 1.8rem;
@@ -454,13 +439,6 @@ body {
 }
 
 @media (min-width: 576px) {
-  .nav-desktop .car {
-    margin-left: 0.8em;
-    font-size: 5rem;
-  }
-  .nav__item {
-    font-size: 1.6rem;
-  }
   .header {
     padding: 10em;
   }

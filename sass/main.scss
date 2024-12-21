@@ -365,15 +365,6 @@ body {
 		margin-right: 0.5em;
 	}
 }
-.offer-page {
-	.section-heading {
-		padding: 1.2rem;
-	}
-
-	.footer {
-		margin-top: 1900px;
-	}
-}
 
 .contact {
 	padding: 1em 1em;
@@ -434,19 +425,9 @@ body {
 	}
 }
 
-.contact-page {
-	.footer {
-		margin-top: 0px;
-	}
-}
 .basic-page1 {
 	header {
 		background-image: url('../img/secondheader.webp');
-	}
-
-	.section-heading-price {
-		text-transform: lowercase;
-		font-size: 3rem;
 	}
 
 	.offers {
@@ -470,12 +451,13 @@ body {
 			text-align: center;
 			font-size: 1.7rem;
 
+			&-info {
+				text-align: center;
+			}
+
 			&-basic {
 				font-size: 1.8rem;
 				margin-bottom: 2em;
-			}
-			&-info {
-				text-align: center;
 			}
 
 			&-link {
