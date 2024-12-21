@@ -425,9 +425,23 @@ body {
 	}
 }
 
+.contact-page {
+	.hamburger {
+		.hamburger-inner,
+		.hamburger-inner::before,
+		.hamburger-inner::after {
+			background-color: $dark;
+		}
+	}
+}
+
 .basic-page1 {
-	header {
-		background-image: url('../img/secondheader.webp');
+	.hamburger {
+		.hamburger-inner,
+		.hamburger-inner::before,
+		.hamburger-inner::after {
+			background-color: $dark;
+		}
 	}
 
 	.offers {
@@ -467,6 +481,14 @@ body {
 				color: $dark;
 			}
 		}
+	}
+
+	.footer {
+		margin-top: 260px;
+	}
+
+	.footer1 {
+		margin-top: 330px;
 	}
 }
 
