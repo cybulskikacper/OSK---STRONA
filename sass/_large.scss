@@ -15,19 +15,6 @@
 		}
 	}
 
-	.header {
-		&__text {
-			font-size: 3.1rem;
-		}
-		&__heading {
-			font-size: 4.5rem;
-		}
-
-		&__course {
-			font-size: 3rem;
-		}
-	}
-
 	.section {
 		.about {
 			&__box {
@@ -43,7 +30,6 @@
 		.adventure {
 			&__box {
 				background-image: url('../img/phone-number.webp');
-				padding: 7em 6em;
 			}
 		}
 	}
@@ -118,31 +104,6 @@
 		}
 	}
 
-	.offers {
-		.section-heading {
-			font-size: 4rem;
-		}
-	}
-
-	.family {
-		.adventure {
-			&__box {
-				padding: 7em 6em;
-			}
-
-			&__title {
-				padding: 1em 3em;
-				font-size: 5.5rem;
-			}
-		}
-	}
-
-	.offer-page {
-		.footer {
-			margin-top: 500px;
-		}
-	}
-
 	.basic-page1 {
 		.footer2 {
 			margin-top: 350px;
@@ -157,9 +118,6 @@
 			}
 		}
 	}
-}
-
-@media (min-width: 1600px) {
 }
 
 @media (min-width: 2000px) {

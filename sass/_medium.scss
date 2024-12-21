@@ -1,130 +1,22 @@
+@media (max-width: 767px) {
+	.wrapper {
+		.hamburger {
+			display: flex;
+			position: absolute;
+			top: 1em;
+			right: 1em;
+			z-index: 500;
+
+			&-inner,
+			&-inner::after,
+			&-inner::before {
+				z-index: 500;
+			}
+		}
+	}
+}
+
 @media (min-width: 768px) {
-	.offer-page {
-		.header {
-			display: none;
-		}
-
-		.footer {
-			margin-top: 350px;
-		}
-		.offers {
-			.section-heading {
-				margin-top: 70px;
-			}
-
-			&__card {
-				margin-top: 50px;
-				display: grid;
-				grid-template-columns: repeat(3, 1fr);
-				gap: 25px;
-				&-items {
-					x &:hover {
-						transform: scale(1.1);
-					}
-				}
-
-				&-full {
-					margin-top: 10px;
-					grid-column: 1 / -1;
-				}
-			}
-		}
-		.footer {
-			margin-top: 500px;
-		}
-	}
-
-	.basic-page1 {
-		margin-top: 160px;
-
-		.header {
-			display: none;
-		}
-
-		.offers {
-			&__card {
-				font-size: 2.1rem;
-				gap: 15px;
-
-				&-basic {
-					font-size: 1.9rem;
-					word-break: normal;
-				}
-
-				&-link {
-					font-size: 2.3rem;
-				}
-			}
-		}
-
-		.offers__card {
-			margin-top: 50px;
-		}
-
-		.footer {
-			margin-top: 230px;
-		}
-		.footer1 {
-			margin-top: 30px;
-		}
-	}
-
-	.header {
-		&__course {
-			font-size: 1.9rem;
-		}
-	}
-
-	.section {
-		.about {
-			&__text {
-				line-height: 1.6;
-				margin-bottom: 1em;
-			}
-		}
-	}
-
-	.contact-page {
-		.header {
-			display: none;
-		}
-
-		.contact {
-			&__form {
-				gap: 30px;
-
-				&-box {
-					&:nth-child(1) {
-						grid-column: 1/4;
-						grid-row: 1/2;
-					}
-					&:nth-child(2) {
-						grid-column: 4/7;
-						grid-row: 1/2;
-					}
-					&:nth-child(3) {
-						grid-column: 1/-1;
-						grid-row: 2/3;
-					}
-					&:nth-child(4) {
-						grid-column: 1/-1;
-						grid-row: 3/4;
-					}
-				}
-
-				&-btn {
-					grid-row: 4/5;
-				}
-			}
-
-			.section-title {
-				font-size: 3rem;
-				font-weight: 300;
-				text-transform: uppercase;
-			}
-		}
-	}
-
 	.nav {
 		&-mobile {
 			display: none;
@@ -177,7 +69,7 @@
 			.nav__item-experience {
 				font-size: 1.5rem;
 				color: #333;
-				margin-left: 0.5em; /* Dodanie odstępu między logo a napisem */
+				margin-left: 0.5em;
 				text-transform: uppercase;
 				text-align: center;
 				white-space: normal;
@@ -190,27 +82,23 @@
 			}
 			.nav-items {
 				display: flex;
-				gap: 1em; /* Ustawienie odstępu między linkami */
-				margin-left: auto; /* Przesunięcie sekcji na prawo */
+				gap: 1em;
+				margin-left: auto;
 			}
 		}
 	}
 
 	.header {
 		background-image: url('../img/main-header.webp');
-
-		&__text {
-			font-size: 3.2rem;
-		}
-
-		&__heading {
-			font-size: 4rem;
-		}
 	}
 
-	.header::before {
-		content: '';
-		background-color: rgba(0, 0, 0, 0);
+	.section {
+		.about {
+			&__text {
+				line-height: 1.6;
+				margin-bottom: 1em;
+			}
+		}
 	}
 
 	.offers {
@@ -228,12 +116,6 @@
 				&:hover {
 					transform: scale(1.05);
 				}
-			}
-
-			&-full {
-				margin-top: 10px;
-				justify-self: center;
-				grid-column: 1;
 			}
 		}
 	}
@@ -282,20 +164,47 @@
 	}
 }
 
-@media (max-width: 767px) {
-	.wrapper {
-		.hamburger {
-			display: flex;
-			position: absolute;
-			top: 1em;
-			right: 1em;
-			z-index: 500;
+.contact-page {
+	.header {
+		display: none;
+	}
 
-			&-inner,
-			&-inner::after,
-			&-inner::before {
-				z-index: 500;
+	.contact {
+		.section-title {
+			font-size: 3rem;
+			font-weight: 300;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.basic-page1 {
+	margin-top: 160px;
+
+	.header {
+		display: none;
+	}
+
+	.offers {
+		&__card {
+			font-size: 2.1rem;
+			gap: 15px;
+
+			&-basic {
+				font-size: 1.9rem;
+				word-break: normal;
+			}
+
+			&-link {
+				font-size: 2.3rem;
 			}
 		}
+	}
+
+	.footer {
+		margin-top: 230px;
+	}
+	.footer1 {
+		margin-top: 30px;
 	}
 }
