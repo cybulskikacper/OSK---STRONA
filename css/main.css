@@ -166,25 +166,16 @@ body {
      object-fit: cover;
   border-radius: 8px;
 }
-.section .about__title {
-  font-size: 2.9rem;
-  font-weight: 600;
-  margin-bottom: 1em;
-}
 .section .about__text {
   font-family: sans-serif;
+  font-weight: 300;
   font-size: 2rem;
   line-height: 1.3;
-  font-weight: 300;
   margin-bottom: 0.5em;
 }
 
 .family .adventure__box {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   padding: 4em 2.5em;
   background-image: url("../img/side-small-adventure.webp");
   background-size: cover;
@@ -210,7 +201,7 @@ body {
 .offers__card {
   display: flex;
   flex-direction: column;
-  height: 580px;
+  height: 600px;
   margin: 1.4em 0em;
   gap: 30px;
   text-align: center;
@@ -224,7 +215,7 @@ body {
   overflow: hidden;
 }
 .offers__card-full {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #000000;
   text-transform: uppercase;
@@ -336,12 +327,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-size: 1.4rem;
-  flex-wrap: nowrap;
 }
 .footer__box-logo {
-  width: 30em;
-  height: 20em;
+  width: 480px;
+  height: 320px;
 }
 .footer__box-social {
   margin: 0em 0em 3em;
