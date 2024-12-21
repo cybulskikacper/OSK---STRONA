@@ -102,20 +102,12 @@ body {
 			background-color: #006533;
 			transition: height 0.5s ease;
 		}
-		&:hover {
-			color: $white;
 
-			&::after {
-				background-color: #006533;
-				height: 100%;
-			}
-		}
-
+		&:hover,
 		&.is-active {
 			color: $white;
 
 			&::after {
-				background-color: #006533;
 				height: 100%;
 			}
 		}
