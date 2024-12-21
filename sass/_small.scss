@@ -1,33 +1,4 @@
 @media (min-width: 576px) {
-	.header {
-		padding: 10em;
-		&__text {
-			font-size: 3rem;
-		}
-
-		&__heading {
-			font-size: 4rem;
-		}
-	}
-
-	.section {
-		.about {
-			&__box {
-				display: flex;
-				flex-direction: column;
-				&__text {
-					margin-left: 0.1em;
-					width: 55%;
-					font-size: 2.2rem;
-				}
-
-				&__img {
-					width: 40%;
-				}
-			}
-		}
-	}
-
 	.faq {
 		.accordion__box {
 			width: 410px;
