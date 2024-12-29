@@ -192,7 +192,7 @@ body {
 }
 .offers {
 	.offer-text {
-		font-size: 2rem;
+		font-size: 1.6rem;
 		text-align: center;
 	}
 
@@ -210,12 +210,12 @@ body {
 			padding: 2.6em;
 			height: 600px;
 			transition: transform 0.3s ease;
+		}
 
-			.discount {
-				font-size: 1.6rem;
-				color: red;
-				font-style: italic;
-			}
+		.discount {
+			font-size: 1.6rem;
+			color: red;
+			font-style: italic;
 		}
 
 		&-full {

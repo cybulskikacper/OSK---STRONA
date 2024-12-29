@@ -196,7 +196,7 @@ body {
 }
 
 .offers .offer-text {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 .offers__card {
@@ -214,7 +214,7 @@ body {
   height: 600px;
   transition: transform 0.3s ease;
 }
-.offers__card-items .discount {
+.offers__card .discount {
   font-size: 1.6rem;
   color: red;
   font-style: italic;
